@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Особисте портфоліо веброзробника">
+  <title>Моє портфоліо | Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true" tabindex="0">
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home"><span class="brand-mark">{"</span> dev<span class="accent">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Відкрити меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Головна</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Про мене</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stack">Технології</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Проєкти</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+          <li class="nav-item ms-lg-2"><button id="themeToggle" class="theme-btn" aria-label="Перемкнути тему"><i class="bi bi-moon-stars"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section-pad">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="status-dot"></span> ВІДКРИТИЙ ДО НАВЧАННЯ ТА НОВИХ ПРОЄКТІВ</div>
+            <p class="hello">Привіт! Мене звати</p>
+            <h1>Твоє Ім’я<br><span class="gradient-text">Developer</span></h1>
+            <h2 class="hero-subtitle">Майбутній Full Stack Developer</h2>
+            <p class="hero-copy">Вивчаю веброзробку та створюю сучасні, зручні й адаптивні сайти. Люблю перетворювати ідеї на працюючі цифрові продукти.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-primary-custom" href="#projects">Переглянути проєкти <i class="bi bi-arrow-up-right"></i></a>
+              <a class="btn btn-outline-custom" href="#contact">Зв’язатися</a>
+            </div>
+            <div class="social-row mt-4">
+              <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <span class="social-note">Прокрути вниз, щоб дізнатися більше <i class="bi bi-arrow-down"></i></span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="developer-card">
+              <div class="card-top"><span></span><span></span><span></span><small>developer.js</small></div>
+              <div class="code-content">
+                <p><span class="code-purple">const</span> developer = {</p>
+                <p class="indent"><span class="code-blue">name</span>: <span class="code-green">"Твоє Ім’я"</span>,</p>
+                <p class="indent"><span class="code-blue">role</span>: <span class="code-green">"Full Stack Developer"</span>,</p>
+                <p class="indent"><span class="code-blue">skills</span>: [</p>
+                <p class="indent2"><span class="code-green">"HTML"</span>, <span class="code-green">"CSS"</span>,</p>
+                <p class="indent2"><span class="code-green">"JavaScript"</span>, <span class="code-green">"Bootstrap"</span></p>
+                <p class="indent">],</p>
+                <p class="indent"><span class="code-blue">learning</span>: <span class="code-green">"Every day"</span></p>
+                <p>};</p>
+                <div class="terminal-line"><span>➜</span> Ready to build something great<span class="cursor">_</span></div>
+              </div>
+              <div class="floating-badge"><i class="bi bi-code-slash"></i> Чистий код • Нові ідеї</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">01 / ПРО МЕНЕ</span><h2>Трохи <span class="gradient-text">про мене</span></h2><p>Знайомство з людиною, яка стоїть за кодом.</p></div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7"><div class="about-panel h-100">
+            <h3>Створюю. Навчаюся. Покращую.</h3>
+            <p>Я початківець у веброзробці, якому цікаво, як працюють сайти та вебзастосунки. Зараз розвиваю навички HTML, CSS і JavaScript, вивчаю Bootstrap та знайомлюся з сучасними інструментами розробки.</p>
+            <p>Програмування обрав, тому що мені подобається поєднання логіки, творчості й можливості створювати корисні речі. Моя мета — вирости у Full Stack Developer, працювати над реальними продуктами та постійно вдосконалюватися.</p>
+            <div class="about-tags"><span>Допитливість</span><span>Командна робота</span><span>Постійний розвиток</span></div>
+          </div></div>
+          <div class="col-lg-5"><div class="stats-grid h-100">
+            <div class="stat-card"><i class="bi bi-laptop"></i><strong>Web</strong><span>Мій напрямок</span></div>
+            <div class="stat-card"><i class="bi bi-lightbulb"></i><strong>Learn</strong><span>Щодня дізнаюся нове</span></div>
+            <div class="stat-card"><i class="bi bi-braces"></i><strong>Code</strong><span>Перетворюю ідеї на код</span></div>
+            <div class="stat-card"><i class="bi bi-rocket-takeoff"></i><strong>Goals</strong><span>Розвиватися та зростати</span></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section-pad section-muted">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">02 / МОЇ ІНСТРУМЕНТИ</span><h2>Tech <span class="gradient-text">Stack</span></h2><p>Технології, з якими працюю або які зараз вивчаю.</p></div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3"><div class="stack-card"><div class="stack-icon orange"><i class="bi bi-filetype-html"></i></div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Bootstrap 5 · React</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="stack-card"><div class="stack-icon green"><i class="bi bi-hdd-stack"></i></div><h3>Backend</h3><p>Node.js · Next.js · REST API · Основи C#</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="stack-card"><div class="stack-icon purple"><i class="bi bi-database"></i></div><h3>Database</h3><p>SQL · MongoDB · Основи роботи з даними</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="stack-card"><div class="stack-icon blue"><i class="bi bi-tools"></i></div><h3>Tools</h3><p>Git · GitHub · VS Code · Postman</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">03 / МОЇ РОБОТИ</span><h2>Обрані <span class="gradient-text">проєкти</span></h2><p>Навчальні роботи, на яких я практикуюся та вдосконалюю навички.</p></div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-preview preview-one"><i class="bi bi-window"></i><span>01</span></div><div class="project-body"><div class="project-type">WEB DESIGN</div><h3>Персональне портфоліо</h3><p>Адаптивний сайт-візитка з інформацією про мене, навички та навчальні проєкти.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div><a href="https://github.com/" target="_blank" rel="noreferrer" class="project-link">GitHub <i class="bi bi-arrow-up-right"></i></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-preview preview-two"><i class="bi bi-controller"></i><span>02</span></div><div class="project-body"><div class="project-type">UI / FRONTEND</div><h3>Game Store UI</h3><p>Концепт інтернет-магазину ігор із каталогом, картками товарів та навігацією.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://github.com/" target="_blank" rel="noreferrer" class="project-link">GitHub <i class="bi bi-arrow-up-right"></i></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-preview preview-three"><i class="bi bi-robot"></i><span>03</span></div><div class="project-body"><div class="project-type">AUTOMATION</div><h3>Telegram Bot</h3><p>Навчальний Telegram-бот із командами, кнопками меню та відповідями користувачу.</p><div class="project-tags"><span>JavaScript</span><span>Next.js</span><span>API</span></div><a href="https://github.com/" target="_blank" rel="noreferrer" class="project-link">GitHub <i class="bi bi-arrow-up-right"></i></a></div></article></div>
+        </div>
+        <p class="projects-note"><i class="bi bi-info-circle"></i> Це демонстраційні картки. Замініть посилання на GitHub на адреси власних репозиторіїв.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <div class="section-kicker">04 / БУДЬМО НА ЗВ’ЯЗКУ</div>
+          <h2>Є цікава ідея?<br><span class="gradient-text">Обговорімо її!</span></h2>
+          <p>Буду радий новим знайомствам, порадам та можливостям для розвитку.</p>
+          <a class="btn btn-primary-custom" href="mailto:your.email@example.com">Написати мені <i class="bi bi-envelope"></i></a>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com"><i class="bi bi-envelope"></i> your.email@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer"><i class="bi bi-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <span id="year"></span> Твоє Ім’я. Створено з <i class="bi bi-heart-fill"></i> та кодом.</span><a href="#home">На початок ↑</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
